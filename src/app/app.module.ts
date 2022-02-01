@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { UsernameComponent } from './username/username.component';
+import { PasswordComponent } from './password/password.component';
+import { LoginbuttonComponent } from './loginbutton/loginbutton.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UsernameComponent,
+    PasswordComponent,
+    LoginbuttonComponent
   ],
   imports: [
     BrowserModule,

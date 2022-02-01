@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+.inputbox {
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+}
+input{
+    border: none;
+    height: 2.2rem;
+    text-align: center;
+}
+
+
+body {
+    font-family: "Barlow", sans-serif;
+    font-family: "PT Sans", sans-serif;
+  background-image: url("./assets/img/bk.jpg");
+}
+
+.container {
+  background-color: honeydew;
+  border-radius: 10px;
+  position: absolute;
+padding-top: 5%;
+padding-left: 4%;
+  top: 20%;
+  left: 40%;
+  width: 450px;
+  height: 350px;
+}
+
+label{
+    font-size: 18px;
+}

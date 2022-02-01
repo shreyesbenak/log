@@ -1,0 +1,17 @@
+.btn {
+  background-color: rgb(19, 206, 206);
+  margin: 1rem 1rem;
+  border: none;
+  width: 11rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  font-family: "Barlow", sans-serif;
+  font-family: "PT Sans", sans-serif;
+}
+.btn:hover {
+  color: black;
+  background-color: chocolate;
+}
+.login{
+    margin-left: 2.5rem;
+}
